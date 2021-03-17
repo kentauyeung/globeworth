@@ -1,0 +1,214 @@
+
+/******************************************
+/* GLOBAL
+/*******************************************/
+html {
+  font-family: 'Lato', sans-serif;
+  color: #6b6e74;
+}
+
+.button {
+  margin-top: 25px;
+}
+
+a:hover{
+  background: silver;
+}
+
+a:visited {
+  color: #6b6e74;
+}
+/******************************************
+/* NAVIGATION
+/*******************************************/
+header {
+  margin: -1em;
+  padding: 0.6em 1em 0.16em 1em;
+  background: ghostwhite;
+}
+
+.header_links, .footer_links{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  padding: 1em 2em;
+  color: black;
+  /* border: 1px solid black */
+}
+
+
+/******************************************
+/* MAIN
+/*******************************************/
+
+main {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-columns: minmax(75px, 200px);
+  margin: 5em 5em;
+}
+
+h1 {
+  font-size: 3rem;
+  margin-top: 50px;
+  margin-bottom: 0;
+}
+
+.company_mission p {
+  margin-top: 0;
+  text-indent: 20px;
+}
+
+.first_visit_text {
+  margin-top: 75px;
+  margin-right: 75px;
+  padding-bottom: 25px;
+  font-size: 1.25rem;
+}
+
+.first_visit_text a {
+  padding: .8em;
+  border-radius: 0.5em;
+  background: #4d61fc;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.first_visit_text a:hover {
+  background: #94a0fd;
+}
+
+.fox_in_the_jungle {
+  width: 100%;
+}
+
+/******************************************
+/* COMPANY PROMISES
+/*******************************************/
+.company_services {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 3em;
+  margin: 5em 5em;
+}
+
+.service {
+  padding: 1.5em 2em;
+  background: #f4f4f4;
+  border-bottom-left-radius: 2em;
+  border-bottom-right-radius: 2em;
+}
+
+.company_services h3 {
+  margin-bottom: 0px;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.company_services p {
+  font-size: 0.8rem;
+}
+
+.img_small {
+  align-self: center;
+  width: 100%;
+}
+
+
+/******************************************
+/* MOMENTUM
+/*******************************************/
+
+.momentum {
+  display: inline-grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-columns: minmax(75px, 200px);
+  margin: 5em 5em;
+}
+
+.img_med {
+  width: 100%;
+}
+
+.mome_text_container h2 {
+  margin-top: 100px;
+  text-transform: uppercase;
+}
+
+
+
+.mome_text_container a {
+  padding: .8em;
+  border-radius: 0.5em;
+  background: #4d61fc;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  font-size: 1rem;
+}
+
+.mome_text_container a:hover {
+  background: #94a0fd;
+}
+
+/******************************************
+/* OUR TEAM
+/*******************************************/
+
+.our_team {
+  text-align: center;
+}
+
+.team_member_container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-columns: minmax(75px, 200px);
+  grid-gap: 2em;
+  margin: 5em 5em;
+}
+
+.team_member h3, .team_member p{
+  margin: 0px;
+}
+
+.team_member h3 {
+  margin-top: 10px;
+}
+
+.member_img {
+
+}
+.headshot {
+  width: 80%;
+  border-radius: 2em;
+}
+
+/******************************************
+/* FOOTER
+/*******************************************/
+
+footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  background: ghostwhite;
+  height: 200px;
+  margin: 5em -1em -1em -1em;
+  padding: 1em 6em;
+}
+
+footer p {
+  font-size: .75rem;
+  line-height: .5;
+}
+
+.footer_links li{
+  margin: 0 0.5em;
+  font-size: 1.5rem;
+}
