@@ -3,7 +3,7 @@ A simplistic approach to creating a professional and modern layout for a website
 
 **Link to project:** https://globeworth.netlify.app/
 
-![alt tag](https://raw.githubusercontent.com/kentauyeung/portfolio/master/projects_screenshots/globeworth.PNG)
+![alt tag](https://raw.githubusercontent.com/kentauyeung/globeworth/main/img/globeworth.PNG)
 
 ## How It's Made:
 
